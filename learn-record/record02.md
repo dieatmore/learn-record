@@ -785,7 +785,7 @@ br 是 break 的缩写，表示换行。
 ---
 
 `<table>`练习:
-![工商银行电子汇款单](image.png)
+![工商银行电子汇款单](https://github.com/dieatmore/learn-record/blob/main/learn-record/imgs/image.png)
 代码如下：
 
 ```html
