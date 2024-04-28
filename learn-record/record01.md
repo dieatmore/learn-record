@@ -127,7 +127,7 @@ Markdown 中插入图片的使用方式是：
 > 但是复制图片，直接 Ctrl+v 更便捷
 
 效果如下：
-![我的头像](https://github.com/dieatmore/learn-record/blob/main/learn-record/imgs/06056c77a298ca58a54bb41b5620a35-1.jpg)
+![我的头像](learn-record/imgs/06056c77a298ca58a54bb41b5620a35-1.jpg)
 
 ### 2.7 列表
 
