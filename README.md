@@ -9,15 +9,6 @@ This repository records the learning content of the school laboratory.
 
 ## Update
 
-
-### 2024.04.26
-#### CSS
-```
-element/id/class Selectors; Cascading; Units; Box Model;
-Background/Image/Text/Opacity; Combinators Selectors; display;
-Vertical-Align; table; float; position; Box-Sizing; Navigation Bar
-```
-***
 ### 2024.04.20
 ##### Git/GitHub-学习记录
 ```
@@ -41,9 +32,3 @@ div; span; p; h1; br; hr; table; ul; img;
 ##### Markdown-学习记录
 Markdown基本语法
 ***
-### 2024.04.10
-项目目录？目录下的文件？文件中的配置？
-熟悉 vscode 功能。
-创建基本网页，在 vscode 中调用浏览器打开。
-熟悉基本 HTML 标签。
-熟悉基本 Emmet 语法。.vscode/.prettierrc.json
