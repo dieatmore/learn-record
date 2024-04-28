@@ -33,7 +33,7 @@ Markdown 编写的文档后缀为 .md, .markdown
 ```
 
 效果如下:
-![标题演示](./learn-record/imgs/19d4b2ed4835fe6ef52ad60be83dd7e.jpg)
+![标题演示](learn-record\19d4b2ed4835fe6ef52ad60be83dd7e.jpg)
 
 > 注意：
 >
