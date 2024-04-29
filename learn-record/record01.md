@@ -33,7 +33,8 @@ Markdown 编写的文档后缀为 .md, .markdown
 ```
 
 效果如下:
-![标题演示](../19d4b2ed4835fe6ef52ad60be83dd7e.jpg)
+![标题演示](https://github.com/dieatmore/learn-record/assets/162850821/9685749c-bf06-4f93-a455-42506fc84bfe)
+
 
 > 注意：
 >
@@ -127,7 +128,9 @@ Markdown 中插入图片的使用方式是：
 > 但是复制图片，直接 Ctrl+v 更便捷
 
 效果如下：
-![我的头像](learn-record/imgs/06056c77a298ca58a54bb41b5620a35-1.jpg)
+![我的头像](https://github.com/dieatmore/learn-record/assets/162850821/3c9ba880-8f7b-4abb-95f0-392464b51738)
+
+
 
 ### 2.7 列表
 
@@ -237,8 +240,9 @@ Markdown 中插入图片的使用方式是：
 > 2. 如果是在一个块内需要引用代码，则在需要引用的代码块的前一行和后
 >    一行使用三个反引号，同时在前一个反引号后写入代码的语言
 
-代码如下：
-![演示](https://github.com/dieatmore/learn-record/blob/main/learn-record/imgs/85d06c04cbe82394089741b6c0eff9d.jpg)
+代码如下:
+![演示](https://github.com/dieatmore/learn-record/assets/162850821/499a5bc9-b7a3-48ef-88a9-ebba548a09b6)
+
 
 效果如下：
 `printf("Hello World");`
