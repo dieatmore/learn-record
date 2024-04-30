@@ -13,6 +13,24 @@ This repository records the learning content of the school laboratory.
 
 ## Update
 
+### 2024.4.29
+#### 学习记录：Emmet 基本语法(二)
+#### 目录
+##### 一、Emmet 常用语法
+###### 1.1 自动生成 HTML 模板
+###### 1.2 属性 []
+###### 1.3 id
+###### 1.4 class .
+###### 1.5 文本内容 {}
+###### 1.6 快速生成 CSS 样式语法
+###### 1.7 隐式标签
+##### 二、Emmet 详情
+###### 2.1 了解更多 Emmet 网址
+###### 2.2 Emmet 官网
+##### 三、总结
+
+
+***
 ### 2024.04.25
 #### Git/GitHub-学习记录
 #### 目录
