@@ -2,7 +2,7 @@
 ## Overview
 This repository records the learning content of the school laboratory.
 
-**均已发布至[CSDN主页](https://blog.csdn.net/di_213?spm=1010.2135.3001.5421)**
+**学习记录均已发布至[CSDN主页](https://blog.csdn.net/di_213?spm=1010.2135.3001.5421)**
 
 
 
@@ -16,19 +16,18 @@ This repository records the learning content of the school laboratory.
 ### 2024.4.29
 #### 学习记录：Emmet 基本语法(二)
 #### 目录
-##### 一、Emmet 常用语法
+##### 一、本文概述
+##### 二、Emmet 常用语法
 ###### 1.1 自动生成 HTML 模板
-###### 1.2 属性 []
-###### 1.3 id
-###### 1.4 class .
-###### 1.5 文本内容 {}
+###### 1.2 属性 `[]`
+###### 1.3 id `#`
+###### 1.4 class `.`
+###### 1.5 文本内容 `{}`
 ###### 1.6 快速生成 CSS 样式语法
 ###### 1.7 隐式标签
-##### 二、Emmet 详情
-###### 2.1 了解更多 Emmet 网址
-###### 2.2 Emmet 官网
-##### 三、总结
-
+##### 三、Emmet 官网
+##### 四、语法及标签缩写详细方法
+##### 五、总结
 
 ***
 ### 2024.04.25
