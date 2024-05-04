@@ -35,16 +35,19 @@ CSS 的**主要作用是定义网页的样式**（美化网页），对网页中
 **选择器 + 若干属性声明**
 
 如图：
-![alt text](image.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/a9089360-3313-4a59-8837-9dfa476c9206)
+
 
 > **注意：不要在属性值与单位之间留有空格！**
 
 如下图：
 错误方法(有空格)：
-![alt text](image-1.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/e0175e00-d57a-4490-8a5b-ad0d7a2f5af5)
+
 
 正确方法(无空格)：
-![alt text](image-3.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/1ba4d665-51d7-422d-9611-a2accc779836)
+
 
 ---
 
@@ -71,7 +74,8 @@ CSS 的**主要作用是定义网页的样式**（美化网页），对网页中
 ```
 
 效果如下(**影响页面所有 p 元素**)：
-![alt text](938d34339fb478f4ff67807576b17dd.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/3a4ca156-c20c-4731-b71e-bf12877cd932)
+
 
 ## 3.2 id 选择器
 
@@ -98,7 +102,8 @@ CSS 的**主要作用是定义网页的样式**（美化网页），对网页中
 ```
 
 效果如下(**仅影响 id 为 para1 的元素**)：
-![alt text](682c0df198c8b72ab293b870778261e.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/e1d0b22f-da76-4876-9a12-9625095f04e9)
+
 
 > 注意：Id=para1 的 p 元素样式由 p 选择器，以及 id 选择器**层叠**决定
 
@@ -126,7 +131,8 @@ CSS 的**主要作用是定义网页的样式**（美化网页），对网页中
 ```
 
 效果如下(**不同类型元素可以引用相同的 class**)：
-![alt text](4da14b1b7a75028aa34fbd7179bc9f6.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/95b99f07-4caf-497e-93bb-de9fbdbea501)
+
 
 ---
 
@@ -143,7 +149,8 @@ CSS 的**主要作用是定义网页的样式**（美化网页），对网页中
 ```
 
 效果如下(指定 h3)：
-![alt text](b6688555efb83f7b0346ede016d2920.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/e4ed3a29-ffd3-4000-b649-214e2dd6ad5c)
+
 
 ---
 
