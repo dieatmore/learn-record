@@ -182,7 +182,8 @@ CSS 注释以 /_ 开头，以 _/ 结尾
 ```
 
 效果如下：
-![alt text](bad4a5e37f4a6f8574f2344ff3cc693.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/5d009749-3dbb-4206-a7a0-1cd6c850d7ca)
+
 
 ## 3.4 最小化
 
@@ -240,7 +241,8 @@ CSS 注释以 /_ 开头，以 _/ 结尾
 - 内联样式
 
 **！因此，必须按顺序正确加载 CSS 样式！**
-![alt text](12065090cd72dcdb4d9441815233141.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/f5c8ed06-fcd4-4769-855c-c989352e4017)
+
 
 ## 4.1 外部样式表
 
@@ -249,7 +251,8 @@ CSS 注释以 /_ 开头，以 _/ 结尾
 - 外部样式表文件不应包含任何 HTML 标记, 必须保存为`. css扩展名`
 
 如图所示：
-![alt text](7b0d357c33cf7bb7d6f30c0e3ac9835.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/68a25622-6b6f-4180-8334-c6fa2ccebf85)
+
 
 ---
 
@@ -259,7 +262,8 @@ CSS 注释以 /_ 开头，以 _/ 结尾
 - 内部样式是在`<style>`元素中定义的，在 HTML 页面的`<head>`部分中
 
 如图所示：
-![alt text](f42b9ed3949a6e3aea846377874fb7f.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/9ec29d70-8271-4082-a074-0013a53a33c5)
+
 
 ## 4.3 内联样式
 
@@ -268,7 +272,8 @@ CSS 注释以 /_ 开头，以 _/ 结尾
 - 网站必须提供一致性主题/体验，例如所有表格应使用相同样式，标题统一蓝色背景等，将样式定义在元素，则后期无法维护
 
 如图所示：
-![alt text](5c58d1aa6ca4dde99c7223cf76b78b6.png)
+![image](https://github.com/dieatmore/learn-record/assets/162850821/b639ed0c-ad61-496c-bf80-c13b7424fcde)
+
 
 # 五、总结
 
