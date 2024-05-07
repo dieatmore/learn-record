@@ -2,7 +2,7 @@
 
 [TOC]
 
-# 一、Units
+# 一、长度单位 Units
 
 ## 1.1 Units 概述
 
@@ -173,3 +173,284 @@ Units 是 CSS 单位，CSS 有几种不同的单位来表示长度，许多 CSS 
 |px| 像素(1px=1 英寸的 1/96)|
 |pt| 点数(1pt=1 英寸的 1/72)|
 |pc|派卡(1pc=12pt)|
+
+- CSS 像素，是一个相对(具体物理设备)的绝对单位
+- 即在同一设备上，1px 长度是相同的，但在不同设备上，1px 长度是不同的
+
+---
+
+# 二、盒子模型 Box Model
+
+## 2.1 Box Model 概述
+
+**所有 HTML 元素都可以被视为盒子**。在 CSS 中，当谈论设计和布局时，使用术语“box model”。box model 本质上是一个包装每个 HTML 元素的盒子。
+
+**box model 包括:**
+
+- 外边距. 清除边框外的区域，外边距是透明的。
+- 边框. 围绕在内边距和内容外的边框。
+- 内边距. 清除内容周围的区域，内边距是透明的。
+- 内容. 盒子的内容，显示文本和图像。
+
+盒子模型如图所示：
+![alt text](image.png)
+
+---
+
+## 2.2 边框 Borders
+
+CSS 边框属性允许您指定元素边框的样式、宽度和颜色。
+
+- 边框样式
+- 边框宽度
+- 边框颜色
+- 边界半径
+- 边界-单独的边
+- 边框速记属性
+
+### 2.2.1 边框样式
+
+**边框样式，指定要显示的边框类型**
+
+![alt text](7987a79587d2c91ebe6ec60a2f86fd1.png)
+
+---
+
+### 2.2.2 边框宽度
+
+**边框宽度 border-width，指定四个边框的宽度**。
+border-width 属性可以有一到四个值（上边框、右边框、下边框和左边框）。边框宽度支持按上下左右分别声明，单位支持 px em， 以及预定义的 thin, medium, or thick 值
+
+---
+
+### 2.2.3 边框速记属性
+
+**为了缩短代码，还可以在一个属性中指定所有单独的边框属性**
+border 属性是以下各个边框属性的简写属性:
+边框宽度
+边框样式(必需)
+边框颜色
+
+代码如下：
+
+```html
+p { border: 5px solid red; }
+```
+
+此属性是 border-width、border-style 和 border-color 的简写属性。
+
+---
+
+### 2.2.4 border-radius
+
+**border-radius 属性用于向元素添加圆形边框**
+
+代码如下：
+
+```html
+<style>
+  p.normal {
+    border: 1px solid red;
+  }
+  p.round1 {
+    border: 1px solid red;
+    border-radius: 5px;
+  }
+  p.round2 {
+    border: 1px solid red;
+    border-radius: 8px;
+  }
+  p.round3 {
+    border: 1px solid red;
+    border-radius: 12px;
+  }
+</style>
+```
+
+```html
+<p class="normal">normal border</p>
+<p class="round1">round border</p>
+<p class="round2">rounder border</p>
+<p class="round3">roundest border</p>
+```
+
+效果如下：
+![alt text](0243df5a0fb13ba251d7f0bc531906c.png)
+
+---
+
+## 2.3 内边距 Padding
+
+**Padding，内边距，决定了内容至边线的距离**
+
+- CSS 填充属性用于在内容周围生成空间。
+- 填充将清除元素内容周围的区域（边框内）。
+- 有一些 CSS 属性用于设置元素每一侧（顶部、右侧、底部和左侧）的填充。
+- **填充是透明的**
+- CSS 具有指定元素每一侧填充的属性：padding-top；padding-right；padding-bottom；padding-left
+
+Padding 示例代码如下：
+
+```html
+<style>
+  div.padding {
+    background-color: lightblue;
+    border: 1px solid #000;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-bottom: 50px;
+    padding-left: 100px;
+  }
+</style>
+```
+
+```html
+<div class="padding">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore itaque harum impedit. Quo nisi,
+  cumque animi, molestiae saepe libero nostrum quidem ad perferendis fugiat explicabo, quia maiores
+  inventore ipsa placeat laborum assumenda.
+</div>
+```
+
+效果如下：
+![alt text](b0c25b567cef2605c6b520225c2a46e.png)
+
+---
+
+### 2.3.1 内边距速记属性
+
+**要缩短代码，可以在一个属性中指定所有内边距属性。**
+
+`padding: 25px 50px 75px 100px;`
+
+- top padding is 25px
+- right padding is 50px
+- bottom padding is 75px
+- left padding is 100px
+  > 简写为 4 项：上，右，下，左
+
+---
+
+`padding: 25px 50px 75px;`
+
+- top padding is 25px
+- right and left paddings are 50px
+- bottom padding is 75px
+  > 简写为 3 项：上，左右，下
+
+---
+
+`padding: 25px 50px;`
+
+- top and bottom paddings are 25px
+- right and left paddings are 50px
+  > 简写为 2 项：上下，左右
+
+---
+
+`padding: 25px;`
+
+- all four paddings are 25px
+  > 简写为 1 项：上下左右
+
+## 2.4 外边距 Margin
+
+**CSS 外边距属性用于在元素周围生成空间。**
+
+- 边缘是透明的。
+- 边距属性设置边框外空白的大小。
+- 外边距速记属性与内边距相同
+- 空间颜色不由元素本身决定，而由父容器决定
+
+Margin 示例代码如下：
+
+```html
+<style>
+  div.margin {
+    border: 1px solid #000;
+    margin: 100px 150px 100px 80px;
+    background-color: lightblue;
+  }
+</style>
+```
+
+```html
+<div class="margin">
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore itaque harum impedit. Quo nisi,
+  cumque animi, molestiae saepe libero nostrum quidem ad perferendis fugiat explicabo, quia maiores
+  inventore ipsa placeat laborum assumenda.
+</div>
+```
+
+效果如下：
+![alt text](bff26bc3145688cd1ce642095bac181.png)
+
+> - 元素内容至其他元素距离由内、外边距共同决定
+> - 元素本身可以定义 Padding 区域颜色,但无法定义 Margin 区域颜色
+
+### 2.4.1 auto
+
+**“自动”值。您可以将 margin 属性设置为 auto，以使元素在其容器内水平居中.(必须指定宽度)，然后，该元素将占用指定的宽度，剩余的空间将在左右边距之间平均分配**
+
+auto 示例代码如下：
+
+```html
+<style>
+  div.center {
+    border: 1px solid red;
+    width: 300px;
+    margin: auto;
+  }
+</style>
+```
+
+```html
+<div>
+  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore itaque harum impedit. Quo nisi,
+  cumque animi, molestiae saepe libero nostrum quidem ad perferendis fugiat explicabo, quia maiores
+  inventore ipsa placeat laborum assumenda.
+</div>
+<div class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, inventore.</div>
+```
+
+效果如下：
+![alt text](e979d20c4f77b4f9e418e7eba93066d-1.png)
+
+> 当指定了宽度，且设置 margin 为 auto 时可实现元素随窗口尺寸动态变化始终水平居中
+
+> **注意：width 必须在 margin 前设置**
+
+---
+
+### 2.4.2 外边距塌陷(Margin Collapse)
+
+外边距塌陷：**元素的顶部边距和底部边距有时会折叠为单个边距，该边距等于两个边距中的最大值。**
+
+示例代码如下：
+
+```html
+<style>
+  h1 {
+    margin: 0 0 50px 0;
+  }
+  h2 {
+    margin: 20px 0 0 0;
+  }
+</style>
+```
+
+```html
+<h1>Heading 1</h1>
+<h2>Heading 2</h2>
+```
+
+效果如下(h1 与 h2 之间的 Margin 取最大值，50px)：
+![alt text](09d8e6f2c45a94796b762520f3485d7.png)
+
+> **元素垂直方向的 margin 会`坍塌`为 2 元素最大的 margin 值而非 2 元素 margin 之和**
+
+---
+
+# 三、总结
+
+记录自己的学习过程，温故知新
