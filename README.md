@@ -13,6 +13,33 @@ This repository records the learning content of the school laboratory.
 
 ## Update
 
+### 2024.5.8
+#### 学习记录：CSS Background、Image、Text、Opacity
+#### 目录
+##### 一、背景 Background
+###### 1.1 background 概述
+###### 1.2 background 速记属性
+##### 二、图像 Image
+###### 2.1 半径 radius
+###### 2.2 Object-Fit 属性
+###### 2.3 尺寸
+###### 2.3.1 max-width
+###### 2.3.2 max-height
+###### 2.3.3 延迟加载属性
+##### 三、文本 Text
+###### 3.1 颜色 color
+######3.2 text-align
+###### 3.3 text-decoration
+###### 3.4 text-indent
+###### 3.5 white-space
+##### 四、字体 Font
+###### 4.1 font-style
+###### 4.2 font-weight
+###### 4.3 font-family
+##### 五、不透明度 Opacity
+##### 六、总结
+
+***
 ### 2024.5.7
 #### 学习记录：CSS Units&Box Model
 #### 目录
