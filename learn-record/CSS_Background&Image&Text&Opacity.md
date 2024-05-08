@@ -418,7 +418,7 @@ font-style 属性值：
 
 ---
 
-## font-family
+## 4.3 font-family
 
 **font-family 属性应该设置几个字体名称作为一种"后备"机制，如果浏览器不支持第一种字体，他将尝试下一种字体**
 
