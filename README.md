@@ -13,8 +13,33 @@ This repository records the learning content of the school laboratory.
 
 ## Update
 
+### 2024.5.7
+#### 学习记录：CSS Units&Box Model
+#### 目录
+##### 一、长度单位 Units
+###### 1.1 Units 概述
+###### 1.2 相对长度单位
+###### 1.2.1 em
+###### 1.2.2 rem
+###### 1.2.3 %
+###### 1.3 绝对长度单位
+##### 二、盒子模型 Box Model
+###### 2.1 Box Model 概述
+###### 2.2 边框 Borders
+###### 2.2.1 边框样式
+###### 2.2.2 边框宽度
+###### 2.2.3 边框速记属性
+###### 2.2.4 border-radius
+###### 2.3 内边距 Padding
+###### 2.3.1 内边距速记属性
+###### 2.4 外边距 Margin
+###### 2.4.1 auto
+###### 2.4.2 外边距塌陷(Margin Collapse)
+##### 三、总结
+
+***
 ### 2024.5.4
-#### 学习记录：CSS 基础(一)
+#### 学习记录：CSS Basics
 #### 目录
 ##### 一、CSS 概述
 ###### 1.1 什么是 CSS？
