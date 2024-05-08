@@ -64,8 +64,10 @@ Units 是 CSS 单位，CSS 有几种不同的单位来表示长度，许多 CSS 
 </div>
 ```
 
+
 效果如下：
-![alt text](3d01e17061edd2d9ad436122cf44d65.png)
+
+<img width="776" alt="3d01e17061edd2d9ad436122cf44d65" src="https://github.com/dieatmore/learn-record/assets/162850821/a80d26a4-a113-48ef-8600-436438433a2e">
 
 > div 内字体为 30px，span 的 em 则相对于 30px 的 0.5 倍,最终字体为 15px
 
@@ -90,7 +92,9 @@ Units 是 CSS 单位，CSS 有几种不同的单位来表示长度，许多 CSS 
 ```
 
 首行缩进效果如下：
-![alt text](c80c1ae895fabe6b0173dadb2ac77e9.png)
+
+<img width="214" alt="c80c1ae895fabe6b0173dadb2ac77e9" src="https://github.com/dieatmore/learn-record/assets/162850821/552db646-9c0d-40d2-9723-a07717222678">
+
 
 ---
 
@@ -120,7 +124,9 @@ Units 是 CSS 单位，CSS 有几种不同的单位来表示长度，许多 CSS 
 ```
 
 效果如下：
-![alt text](86541184166e19efed4c3db56f4f205.png)
+
+<img width="776" alt="86541184166e19efed4c3db56f4f205" src="https://github.com/dieatmore/learn-record/assets/162850821/974c53dc-cff9-41fd-975c-74fb044a3d9b">
+
 
 > **rem 相对于 html 设置，而非当前尺寸**
 
@@ -155,7 +161,9 @@ Units 是 CSS 单位，CSS 有几种不同的单位来表示长度，许多 CSS 
 ```
 
 效果如下：
-![alt text](19b432c5c204b156297cd0672b863b5.png)
+
+<img width="629" alt="19b432c5c204b156297cd0672b863b5" src="https://github.com/dieatmore/learn-record/assets/162850821/8c639431-9611-4598-b611-7b514bf191d6">
+
 
 > - father 为当前宽度的 80%
 > - son 为 father 宽度的 50%
@@ -193,7 +201,9 @@ Units 是 CSS 单位，CSS 有几种不同的单位来表示长度，许多 CSS 
 - 内容. 盒子的内容，显示文本和图像。
 
 盒子模型如图所示：
-![alt text](image.png)
+
+<img width="720" alt="image" src="https://github.com/dieatmore/learn-record/assets/162850821/9085095a-d995-4240-8416-57258c11e6a3">
+
 
 ---
 
@@ -212,7 +222,8 @@ CSS 边框属性允许您指定元素边框的样式、宽度和颜色。
 
 **边框样式，指定要显示的边框类型**
 
-![alt text](7987a79587d2c91ebe6ec60a2f86fd1.png)
+<img width="752" alt="7987a79587d2c91ebe6ec60a2f86fd1" src="https://github.com/dieatmore/learn-record/assets/162850821/57fc96b0-29b3-48b7-b4ad-51b4d4a52af6">
+
 
 ---
 
@@ -275,7 +286,9 @@ p { border: 5px solid red; }
 ```
 
 效果如下：
-![alt text](0243df5a0fb13ba251d7f0bc531906c.png)
+
+<img width="777" alt="0243df5a0fb13ba251d7f0bc531906c" src="https://github.com/dieatmore/learn-record/assets/162850821/c0ebb755-dd72-411a-9365-b67153e3fc1a">
+
 
 ---
 
@@ -313,7 +326,9 @@ Padding 示例代码如下：
 ```
 
 效果如下：
-![alt text](b0c25b567cef2605c6b520225c2a46e.png)
+
+<img width="779" alt="b0c25b567cef2605c6b520225c2a46e" src="https://github.com/dieatmore/learn-record/assets/162850821/ccb84121-b4a7-43d9-9337-17d148619b4d">
+
 
 ---
 
@@ -383,7 +398,9 @@ Margin 示例代码如下：
 ```
 
 效果如下：
-![alt text](bff26bc3145688cd1ce642095bac181.png)
+
+<img width="781" alt="bff26bc3145688cd1ce642095bac181" src="https://github.com/dieatmore/learn-record/assets/162850821/a5270d0d-3748-499f-8161-56fe482e481d">
+
 
 > - 元素内容至其他元素距离由内、外边距共同决定
 > - 元素本身可以定义 Padding 区域颜色,但无法定义 Margin 区域颜色
@@ -414,7 +431,9 @@ auto 示例代码如下：
 ```
 
 效果如下：
-![alt text](e979d20c4f77b4f9e418e7eba93066d-1.png)
+
+<img width="781" alt="e979d20c4f77b4f9e418e7eba93066d" src="https://github.com/dieatmore/learn-record/assets/162850821/aa43c179-156f-499e-a9d1-af7301a7006e">
+
 
 > 当指定了宽度，且设置 margin 为 auto 时可实现元素随窗口尺寸动态变化始终水平居中
 
@@ -445,7 +464,9 @@ auto 示例代码如下：
 ```
 
 效果如下(h1 与 h2 之间的 Margin 取最大值，50px)：
-![alt text](09d8e6f2c45a94796b762520f3485d7.png)
+
+<img width="170" alt="09d8e6f2c45a94796b762520f3485d7" src="https://github.com/dieatmore/learn-record/assets/162850821/05c1c0b1-0f97-435a-9380-ace668dac4dc">
+
 
 > **元素垂直方向的 margin 会`坍塌`为 2 元素最大的 margin 值而非 2 元素 margin 之和**
 
