@@ -318,7 +318,7 @@ text-decoration 属性值：
 - line-through
 - underline
 
-示例代码如下：
+代码如下：
 
 ```css
 h1 {
