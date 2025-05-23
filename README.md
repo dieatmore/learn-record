@@ -2,7 +2,7 @@
 ## Overview
 This repository records the learning content of the school laboratory.
 
-**学习记录均已发布至[CSDN主页](https://blog.csdn.net/di_213?spm=1010.2135.3001.5421)**
+**学习记录均已发布至[CSDN](https://blog.csdn.net/di_213?spm=1010.2135.3001.5421)**
 
 
 
